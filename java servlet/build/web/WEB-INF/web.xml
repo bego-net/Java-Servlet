@@ -1,0 +1,21 @@
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" 
+    "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app>
+    <servlet>
+        <servlet-name>SumServlet</servlet-name>
+        <servlet-class>SumServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SumServlet</servlet-name>
+        <url-pattern>/sum</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SquareServlet</servlet-name>
+        <servlet-class>SquareServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SquareServlet</servlet-name>
+        <url-pattern>/square</url-pattern>
+    </servlet-mapping>
+</web-app>
